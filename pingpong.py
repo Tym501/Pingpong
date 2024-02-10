@@ -51,8 +51,8 @@ ball = GameSprite('tenis_ball.png', 200, 200, 4, 50, 50)
  
 font.init()
 font = font.Font(None, 35)
-lose1 = font.render('PLAYER 1 LOSE!', True, (180, 0, 0))
-lose2 = font.render('PLAYER 2 LOSE!', True, (180, 0, 0))
+lose1 = font.render('PLAYER to the left lose!', True, (180, 0, 0))
+lose2 = font.render('PLAYER to the right LOSE!', True, (180, 0, 0))
  
 speed_x = 3
 speed_y = 3 
